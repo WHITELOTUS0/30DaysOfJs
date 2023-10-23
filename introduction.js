@@ -15,5 +15,7 @@ let regEx = /\d+/
 // + means one or more digit numbers,
 // if there is g after that it means global, search everywhere.
 
-//console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
+console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
+const exampleString = "Sibomana Glorry"
+console.log(exampleString.match(/a/gi)) // ["Sibomana", "Glorry"]
