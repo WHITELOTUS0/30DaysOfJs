@@ -6,3 +6,5 @@ console.log(Math.min(...num))
 console.log(Math.floor(Math.random()*11))
 let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
 console.log(string.match('love'))
+let pattern= '/love/gi'
+console.log(string.match(pattern))
