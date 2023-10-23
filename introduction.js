@@ -19,3 +19,11 @@ console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", 
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 const exampleString = "Sibomana Glorry"
 console.log(exampleString.match(/a/gi)) // ["Sibomana", "Glorry"]
+
+// let number = prompt("Enter number ")
+// console.log(number)
+
+// const agree = confirm('Are you sure you like to delete? ')
+// console.log(agree) // result will be true or false based on what you click on the dialog box
+const date = new Date();
+
