@@ -13,3 +13,4 @@ class Student extends Person{
 let student1 = new Student("Glorry","123456");
 console.log(student1.name);
 
+
