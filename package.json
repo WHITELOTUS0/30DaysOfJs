@@ -1,0 +1,23 @@
+{
+  "name": "30daysofjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Arrays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WHITELOTUS0/30DaysOfJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WHITELOTUS0/30DaysOfJs/issues"
+  },
+  "homepage": "https://github.com/WHITELOTUS0/30DaysOfJs#readme",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
