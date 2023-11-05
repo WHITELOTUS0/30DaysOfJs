@@ -10,6 +10,8 @@
     <h1 class="title" id="second-title">Second Title</h1>
     <h1 class="title" id="third-title">Third Title</h1>
     <h1></h1>
+    <ul></ul>
+    <ul></ul>
     <script>
       const allTitles = document.getElementsByTagName("h1");
 
@@ -21,6 +23,20 @@
       }
       const attrs = document.querySelectorAll('h1')
       attrs[0].style='color:red'
+      attrs[3].textContent='Fourth Title'
+      const lists = `
+    <li>30DaysOfPython Challenge Done</li>
+            <li>30DaysOfJavaScript Challenge Ongoing</li>
+            <li>30DaysOfReact Challenge Coming</li>
+            <li>30DaysOfFullStack Challenge Coming</li>
+            <li>30DaysOfDataAnalysis Challenge Coming</li>
+            <li>30DaysOfReactNative Challenge Coming</li>
+            <li>30DaysOfMachineLearning Challenge Coming</li>`
+        const ul  = document.querySelectorAll('ul')
+        ul.forEach((elements)=>{
+            elements.innerHTML=lists
+            
+        })
       
     </script>
   </body>
