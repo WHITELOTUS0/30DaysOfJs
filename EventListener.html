@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <button>Click Me</button>
     <script>
-        const button = document.querySelector('button')
-        button.addEventListener('click', ()=>{
-            const element = document.createElement('h1')
-            element.textContent = 'Hello Glorry'
-            document.body.appendChild(element)
-        })
+/* const button = document.querySelector('button')
+              const ev = ['click', 'mouseover']
+              button.addEventListener(ev[0] || ev[1], ()=>{
+                  const element = document.createElement('h1')
+                  element.textContent = 'Hello Glorry'
+                  document.body.appendChild(element)
+              }) */
+     const button = document.querySelector('button');
+      const events = ['click', 'mouseover'];
+
+      events.forEach(event => {
+       button.addEventListener(event, () => {
+         const element = document.createElement('h1');
+         element.textContent = 'Hello Glorry';
+         document.body.appendChild(element);
+       });
+      });
     </script>
-    
-</body>
+  </body>
 </html>
